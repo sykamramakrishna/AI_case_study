@@ -1,0 +1,820 @@
+[
+ {
+  "category": "canonical",
+  "say": "open notepad",
+  "expect": "same",
+  "same_as": "open notepad"
+ },
+ {
+  "category": "canonical",
+  "say": "open word",
+  "expect": "same",
+  "same_as": "open word"
+ },
+ {
+  "category": "canonical",
+  "say": "close chrome",
+  "expect": "same",
+  "same_as": "close chrome"
+ },
+ {
+  "category": "canonical",
+  "say": "take a screenshot and paste it into word",
+  "expect": "same",
+  "same_as": "take a screenshot and paste it into word"
+ },
+ {
+  "category": "canonical",
+  "say": "type hello world",
+  "expect": "same",
+  "same_as": "type hello world"
+ },
+ {
+  "category": "canonical",
+  "say": "press control s",
+  "expect": "same",
+  "same_as": "press control s"
+ },
+ {
+  "category": "canonical",
+  "say": "search for compiler design notes",
+  "expect": "same",
+  "same_as": "search for compiler design notes"
+ },
+ {
+  "category": "canonical",
+  "say": "open youtube",
+  "expect": "same",
+  "same_as": "open youtube"
+ },
+ {
+  "category": "canonical",
+  "say": "create notes.txt",
+  "expect": "same",
+  "same_as": "create notes.txt"
+ },
+ {
+  "category": "canonical",
+  "say": "delete notes.txt",
+  "expect": "same",
+  "same_as": "delete notes.txt"
+ },
+ {
+  "category": "canonical",
+  "say": "volume up",
+  "expect": "same",
+  "same_as": "volume up"
+ },
+ {
+  "category": "canonical",
+  "say": "wait 3 seconds",
+  "expect": "same",
+  "same_as": "wait 3 seconds"
+ },
+ {
+  "category": "canonical",
+  "say": "press tab 3 times",
+  "expect": "same",
+  "same_as": "press tab 3 times"
+ },
+ {
+  "category": "canonical",
+  "say": "scroll down",
+  "expect": "same",
+  "same_as": "scroll down"
+ },
+ {
+  "category": "paraphrase",
+  "say": "open the chrome browser",
+  "expect": "same",
+  "same_as": "open chrome"
+ },
+ {
+  "category": "paraphrase",
+  "say": "can you open notepad for me",
+  "expect": "same",
+  "same_as": "open notepad"
+ },
+ {
+  "category": "paraphrase",
+  "say": "please launch microsoft word",
+  "expect": "same",
+  "same_as": "open word"
+ },
+ {
+  "category": "paraphrase",
+  "say": "I want to open youtube",
+  "expect": "same",
+  "same_as": "open youtube"
+ },
+ {
+  "category": "paraphrase",
+  "say": "start up the calculator",
+  "expect": "same",
+  "same_as": "open calculator"
+ },
+ {
+  "category": "paraphrase",
+  "say": "bring up file explorer",
+  "expect": "same",
+  "same_as": "open explorer"
+ },
+ {
+  "category": "paraphrase",
+  "say": "fire up vs code",
+  "expect": "same",
+  "same_as": "open vscode"
+ },
+ {
+  "category": "paraphrase",
+  "say": "open my gmail",
+  "expect": "same",
+  "same_as": "open gmail"
+ },
+ {
+  "category": "paraphrase",
+  "say": "navigate to github.com",
+  "expect": "same",
+  "same_as": "go to github.com"
+ },
+ {
+  "category": "paraphrase",
+  "say": "kill notepad",
+  "expect": "same",
+  "same_as": "close notepad"
+ },
+ {
+  "category": "paraphrase",
+  "say": "close the chrome window",
+  "expect": "same",
+  "same_as": "close chrome"
+ },
+ {
+  "category": "paraphrase",
+  "say": "shut chrome",
+  "expect": "same",
+  "same_as": "close chrome"
+ },
+ {
+  "category": "paraphrase",
+  "say": "capture the screen",
+  "expect": "same",
+  "same_as": "take a screenshot"
+ },
+ {
+  "category": "paraphrase",
+  "say": "grab a screenshot",
+  "expect": "same",
+  "same_as": "take a screenshot"
+ },
+ {
+  "category": "paraphrase",
+  "say": "screenshot this and put it in word",
+  "expect": "same",
+  "same_as": "take a screenshot and paste it into word"
+ },
+ {
+  "category": "paraphrase",
+  "say": "copy everything",
+  "expect": "same",
+  "same_as": "select all and copy"
+ },
+ {
+  "category": "paraphrase",
+  "say": "select everything and copy it",
+  "expect": "same",
+  "same_as": "select all and copy"
+ },
+ {
+  "category": "paraphrase",
+  "say": "write hello world in notepad",
+  "expect": "same",
+  "same_as": "type hello world in notepad"
+ },
+ {
+  "category": "paraphrase",
+  "say": "google machine learning courses",
+  "expect": "same",
+  "same_as": "search for machine learning courses"
+ },
+ {
+  "category": "paraphrase",
+  "say": "look up the weather in chennai",
+  "expect": "same",
+  "same_as": "search for the weather in chennai"
+ },
+ {
+  "category": "paraphrase",
+  "say": "search youtube for python tutorials",
+  "expect": "same",
+  "same_as": "search youtube for python tutorials"
+ },
+ {
+  "category": "paraphrase",
+  "say": "find python tutorials on youtube",
+  "expect": "same",
+  "same_as": "search youtube for python tutorials"
+ },
+ {
+  "category": "paraphrase",
+  "say": "play arijit singh songs on youtube",
+  "expect": "same",
+  "same_as": "play arijit singh songs",
+  "note": "changed 2026-10-26: user asked for play to start the top video instead of showing search results"
+ },
+ {
+  "category": "paraphrase",
+  "say": "turn up the volume",
+  "expect": "same",
+  "same_as": "volume up"
+ },
+ {
+  "category": "paraphrase",
+  "say": "make it louder",
+  "expect": "same",
+  "same_as": "volume up"
+ },
+ {
+  "category": "paraphrase",
+  "say": "lower the volume",
+  "expect": "same",
+  "same_as": "volume down"
+ },
+ {
+  "category": "paraphrase",
+  "say": "turn the volume down",
+  "expect": "same",
+  "same_as": "volume down"
+ },
+ {
+  "category": "paraphrase",
+  "say": "mute the sound",
+  "expect": "same",
+  "same_as": "mute"
+ },
+ {
+  "category": "paraphrase",
+  "say": "hit the enter key",
+  "expect": "same",
+  "same_as": "press enter"
+ },
+ {
+  "category": "paraphrase",
+  "say": "press control plus s",
+  "expect": "same",
+  "same_as": "press control s"
+ },
+ {
+  "category": "paraphrase",
+  "say": "save the file",
+  "expect": "same",
+  "same_as": "save"
+ },
+ {
+  "category": "paraphrase",
+  "say": "save this document as report",
+  "expect": "same",
+  "same_as": "save as report"
+ },
+ {
+  "category": "paraphrase",
+  "say": "scroll down a bit",
+  "expect": "same",
+  "same_as": "scroll down"
+ },
+ {
+  "category": "paraphrase",
+  "say": "create a new folder called projects",
+  "expect": "same",
+  "same_as": "create folder projects"
+ },
+ {
+  "category": "paraphrase",
+  "say": "make a folder named cn lab",
+  "expect": "same",
+  "same_as": "create folder cn lab"
+ },
+ {
+  "category": "paraphrase",
+  "say": "make a file named todo.txt",
+  "expect": "same",
+  "same_as": "create todo.txt"
+ },
+ {
+  "category": "paraphrase",
+  "say": "create a text file called shopping",
+  "expect": "same",
+  "same_as": "create shopping.txt"
+ },
+ {
+  "category": "paraphrase",
+  "say": "create a python file called hello",
+  "expect": "same",
+  "same_as": "create hello.py"
+ },
+ {
+  "category": "paraphrase",
+  "say": "delete the file notes.txt",
+  "expect": "same",
+  "same_as": "delete notes.txt"
+ },
+ {
+  "category": "paraphrase",
+  "say": "open the file report.pdf",
+  "expect": "same",
+  "same_as": "open report.pdf"
+ },
+ {
+  "category": "paraphrase",
+  "say": "click on the file menu",
+  "expect": "same",
+  "same_as": "click on file"
+ },
+ {
+  "category": "paraphrase",
+  "say": "wait for five seconds",
+  "expect": "same",
+  "same_as": "wait 5 seconds"
+ },
+ {
+  "category": "paraphrase",
+  "say": "minimize this window",
+  "expect": "same",
+  "same_as": "minimize window"
+ },
+ {
+  "category": "paraphrase",
+  "say": "maximize the window",
+  "expect": "same",
+  "same_as": "maximize window"
+ },
+ {
+  "category": "paraphrase",
+  "say": "switch over to word",
+  "expect": "same",
+  "same_as": "switch to word"
+ },
+ {
+  "category": "paraphrase",
+  "say": "go back to chrome",
+  "expect": "same",
+  "same_as": "switch to chrome"
+ },
+ {
+  "category": "paraphrase",
+  "say": "refresh the page",
+  "expect": "same",
+  "same_as": "press f5"
+ },
+ {
+  "category": "paraphrase",
+  "say": "open a new tab",
+  "expect": "same",
+  "same_as": "press control t"
+ },
+ {
+  "category": "paraphrase",
+  "say": "close this tab",
+  "expect": "same",
+  "same_as": "close tab"
+ },
+ {
+  "category": "paraphrase",
+  "say": "undo that",
+  "expect": "same",
+  "same_as": "press control z"
+ },
+ {
+  "category": "paraphrase",
+  "say": "select all the text",
+  "expect": "same",
+  "same_as": "select all"
+ },
+ {
+  "category": "paraphrase",
+  "say": "lock my computer",
+  "expect": "same",
+  "same_as": "lock screen"
+ },
+ {
+  "category": "asr_error",
+  "say": "open note pad",
+  "expect": "same",
+  "same_as": "open notepad"
+ },
+ {
+  "category": "asr_error",
+  "say": "open notebad",
+  "expect": "same",
+  "same_as": "open notepad"
+ },
+ {
+  "category": "asr_error",
+  "say": "open crome",
+  "expect": "same",
+  "same_as": "open chrome"
+ },
+ {
+  "category": "asr_error",
+  "say": "open you tube",
+  "expect": "same",
+  "same_as": "open youtube"
+ },
+ {
+  "category": "asr_error",
+  "say": "open what's app",
+  "expect": "same",
+  "same_as": "open whatsapp"
+ },
+ {
+  "category": "asr_error",
+  "say": "open calculater",
+  "expect": "same",
+  "same_as": "open calculator"
+ },
+ {
+  "category": "asr_error",
+  "say": "open excel sheet",
+  "expect": "same",
+  "same_as": "open excel"
+ },
+ {
+  "category": "asr_error",
+  "say": "open goggle chrome",
+  "expect": "same",
+  "same_as": "open chrome"
+ },
+ {
+  "category": "asr_error",
+  "say": "tape hello world",
+  "expect": "same",
+  "same_as": "type hello world"
+ },
+ {
+  "category": "asr_error",
+  "say": "copy and pest it into word",
+  "expect": "same",
+  "same_as": "copy and paste into word",
+  "note": "fixed: original expected command needs something copied first"
+ },
+ {
+  "category": "asr_error",
+  "say": "take a screen shot",
+  "expect": "same",
+  "same_as": "take a screenshot"
+ },
+ {
+  "category": "asr_error",
+  "say": "take a screen sort",
+  "expect": "same",
+  "same_as": "take a screenshot"
+ },
+ {
+  "category": "asr_error",
+  "say": "safe the file",
+  "expect": "same",
+  "same_as": "save"
+ },
+ {
+  "category": "asr_error",
+  "say": "clothes chrome",
+  "expect": "same",
+  "same_as": "close chrome"
+ },
+ {
+  "category": "asr_error",
+  "say": "search four python projects",
+  "expect": "same",
+  "same_as": "search for python projects"
+ },
+ {
+  "category": "asr_error",
+  "say": "weight 5 seconds",
+  "expect": "same",
+  "same_as": "wait 5 seconds"
+ },
+ {
+  "category": "asr_error",
+  "say": "press inter",
+  "expect": "same",
+  "same_as": "press enter"
+ },
+ {
+  "category": "asr_error",
+  "say": "press tap",
+  "expect": "same",
+  "same_as": "press tab"
+ },
+ {
+  "category": "asr_error",
+  "say": "scroll don",
+  "expect": "same",
+  "same_as": "scroll down"
+ },
+ {
+  "category": "asr_error",
+  "say": "volume app",
+  "expect": "same",
+  "same_as": "volume up"
+ },
+ {
+  "category": "asr_error",
+  "say": "open power point",
+  "expect": "same",
+  "same_as": "open powerpoint"
+ },
+ {
+  "category": "asr_error",
+  "say": "open v s code",
+  "expect": "same",
+  "same_as": "open vscode"
+ },
+ {
+  "category": "asr_error",
+  "say": "open file explore",
+  "expect": "same",
+  "same_as": "open explorer"
+ },
+ {
+  "category": "asr_error",
+  "say": "create notes dot txt",
+  "expect": "same",
+  "same_as": "create notes.txt"
+ },
+ {
+  "category": "asr_error",
+  "say": "open the word",
+  "expect": "same",
+  "same_as": "open word"
+ },
+ {
+  "category": "asr_error",
+  "say": "open chrome.",
+  "expect": "same",
+  "same_as": "open chrome"
+ },
+ {
+  "category": "asr_error",
+  "say": "Open Chrome!",
+  "expect": "same",
+  "same_as": "open chrome"
+ },
+ {
+  "category": "self_correction",
+  "say": "open chrome no wait open notepad",
+  "expect": "same",
+  "same_as": "open notepad"
+ },
+ {
+  "category": "self_correction",
+  "say": "open chrome sorry I mean firefox",
+  "expect": "same",
+  "same_as": "open firefox"
+ },
+ {
+  "category": "self_correction",
+  "say": "type hello actually type hi",
+  "expect": "same",
+  "same_as": "type hi"
+ },
+ {
+  "category": "self_correction",
+  "say": "open word no not word excel",
+  "expect": "same",
+  "same_as": "open excel"
+ },
+ {
+  "category": "self_correction",
+  "say": "create notes.txt I mean todo.txt",
+  "expect": "same",
+  "same_as": "create todo.txt"
+ },
+ {
+  "category": "self_correction",
+  "say": "open notepad no chrome",
+  "expect": "same",
+  "same_as": "open chrome"
+ },
+ {
+  "category": "self_correction",
+  "say": "press tab sorry press enter",
+  "expect": "same",
+  "same_as": "press enter"
+ },
+ {
+  "category": "self_correction",
+  "say": "wait 5 no 10 seconds",
+  "expect": "same",
+  "same_as": "wait 10 seconds"
+ },
+ {
+  "category": "disfluency",
+  "say": "um open uh notepad",
+  "expect": "same",
+  "same_as": "open notepad"
+ },
+ {
+  "category": "disfluency",
+  "say": "okay so open chrome",
+  "expect": "same",
+  "same_as": "open chrome"
+ },
+ {
+  "category": "disfluency",
+  "say": "can you can you open notepad",
+  "expect": "same",
+  "same_as": "open notepad"
+ },
+ {
+  "category": "disfluency",
+  "say": "hey open chrome please",
+  "expect": "same",
+  "same_as": "open chrome"
+ },
+ {
+  "category": "disfluency",
+  "say": "so basically take a screenshot",
+  "expect": "same",
+  "same_as": "take a screenshot"
+ },
+ {
+  "category": "disfluency",
+  "say": "hmm close notepad",
+  "expect": "same",
+  "same_as": "close notepad"
+ },
+ {
+  "category": "disfluency",
+  "say": "alright now open word",
+  "expect": "same",
+  "same_as": "open word"
+ },
+ {
+  "category": "multistep",
+  "say": "open notepad, write hello world and then save it as greeting",
+  "expect": "same",
+  "same_as": "open notepad and type hello world and save as greeting"
+ },
+ {
+  "category": "multistep",
+  "say": "open chrome and then go to youtube",
+  "expect": "same",
+  "same_as": "open chrome and open youtube"
+ },
+ {
+  "category": "multistep",
+  "say": "take a screenshot then open word and paste it",
+  "expect": "same",
+  "same_as": "take a screenshot and open word and paste"
+ },
+ {
+  "category": "multistep",
+  "say": "first open notepad then type test",
+  "expect": "same",
+  "same_as": "open notepad and type test"
+ },
+ {
+  "category": "multistep",
+  "say": "open notepad type hello press enter and type bye",
+  "expect": "same",
+  "same_as": "open notepad and type hello and press enter and type bye"
+ },
+ {
+  "category": "multistep",
+  "say": "create a folder called demo and create notes.txt",
+  "expect": "same",
+  "same_as": "create folder demo and create notes.txt"
+ },
+ {
+  "category": "multistep",
+  "say": "open youtube and search for lofi music",
+  "expect": "same",
+  "same_as": "open youtube and search for lofi music"
+ },
+ {
+  "category": "question",
+  "say": "what time is it",
+  "expect": "same",
+  "same_as": "what time is it"
+ },
+ {
+  "category": "question",
+  "say": "what's the time now",
+  "expect": "same",
+  "same_as": "what time is it"
+ },
+ {
+  "category": "question",
+  "say": "what is today's date",
+  "expect": "same",
+  "same_as": "what is the date"
+ },
+ {
+  "category": "question",
+  "say": "what day is it today",
+  "expect": "same",
+  "same_as": "what is the date"
+ },
+ {
+  "category": "question",
+  "say": "what is 25 times 4",
+  "expect": "same",
+  "same_as": "calculate 25 * 4"
+ },
+ {
+  "category": "question",
+  "say": "calculate 15 percent of 2000",
+  "expect": "same",
+  "same_as": "calculate 15% of 2000"
+ },
+ {
+  "category": "question",
+  "say": "how much is 100 divided by 8",
+  "expect": "same",
+  "same_as": "calculate 100 / 8"
+ },
+ {
+  "category": "question",
+  "say": "what is 12 plus 30",
+  "expect": "same",
+  "same_as": "calculate 12 + 30"
+ },
+ {
+  "category": "clarify",
+  "say": "delete",
+  "expect": "clarify",
+  "same_as": null
+ },
+ {
+  "category": "clarify",
+  "say": "open",
+  "expect": "clarify",
+  "same_as": null
+ },
+ {
+  "category": "clarify",
+  "say": "type",
+  "expect": "clarify",
+  "same_as": null
+ },
+ {
+  "category": "clarify",
+  "say": "close",
+  "expect": "clarify",
+  "same_as": null
+ },
+ {
+  "category": "clarify",
+  "say": "switch to",
+  "expect": "clarify",
+  "same_as": null
+ },
+ {
+  "category": "clarify",
+  "say": "search",
+  "expect": "clarify",
+  "same_as": null
+ },
+ {
+  "category": "reject",
+  "say": "delete everything",
+  "expect": "reject",
+  "same_as": null
+ },
+ {
+  "category": "reject",
+  "say": "delete all files",
+  "expect": "reject",
+  "same_as": null
+ },
+ {
+  "category": "reject",
+  "say": "blah blah",
+  "expect": "reject",
+  "same_as": null
+ },
+ {
+  "category": "reject",
+  "say": "send money to rahul",
+  "expect": "reject",
+  "same_as": null
+ },
+ {
+  "category": "reject",
+  "say": "format the c drive",
+  "expect": "reject",
+  "same_as": null
+ },
+ {
+  "category": "reject",
+  "say": "delete *.txt",
+  "expect": "reject",
+  "same_as": null
+ },
+ {
+  "category": "reject",
+  "say": "repeat 1000 times press enter",
+  "expect": "reject",
+  "same_as": null
+ }
+]

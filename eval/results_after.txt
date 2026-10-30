@@ -1,0 +1,31 @@
+
+== dev set, assistant: 136/136 = 100.0% ==
+  canonical         14/14  100.0%
+  paraphrase        52/52  100.0%
+  asr_error         27/27  100.0%
+  self_correction    8/8   100.0%
+  disfluency         7/7   100.0%
+  multistep          7/7   100.0%
+  question           8/8   100.0%
+  clarify            6/6   100.0%
+  reject             7/7   100.0%
+
+== heldout set, assistant: 35/35 = 100.0% ==
+  paraphrase        14/14  100.0%
+  asr_error          8/8   100.0%
+  self_correction    3/3   100.0%
+  disfluency         2/2   100.0%
+  multistep          2/2   100.0%
+  question           2/2   100.0%
+  clarify            2/2   100.0%
+  reject             2/2   100.0%
+
+== blind set, assistant: 44/45 = 97.8% ==
+  paraphrase        20/20  100.0%
+  asr_error          9/10   90.0%
+  self_correction    3/3   100.0%
+  disfluency         2/2   100.0%
+  multistep          3/3   100.0%
+  question           3/3   100.0%
+  clarify            2/2   100.0%
+  reject             2/2   100.0%

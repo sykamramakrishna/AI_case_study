@@ -1,0 +1,66 @@
+COMPILER - VOICE ASSISTANT - HOW TO RUN (Windows)
+
+Unzip compiler.zip with right-click > Extract All. Open the "compiler" folder:
+you should see app.py, SETUP.bat and start_app_ai.bat directly inside it.
+
+ONE-TIME SETUP
+1. Python 3.12 from python.org (tick "Add python.exe to PATH").
+2. Ollama from ollama.com, opened once (llama icon near the clock), and one model:
+       ollama pull qwen3.5:4b
+3. WhatsApp desktop app from the Microsoft Store, logged in (only needed for WhatsApp commands).
+4. Double-click SETUP.bat in this folder. It must end with:  AI works with qwen3.5:4b
+
+EVERY TIME
+1. Make sure Ollama is running.
+2. Double-click start_app_ai.bat
+   (terminal alternative, from THIS folder:  py -3.12 app.py --llm)
+3. Wait for "Compiler is ready". Click "Live" at the top to let it really control the laptop.
+
+HOW TO TALK TO IT
+   Say "Hey Compiler" (or "Hey Computer"), then your command.
+   You can also say it in one go:  "Hey Compiler, open notepad"
+   It stays awake for follow-up commands. Say "stop" to put it to sleep.
+   It answers out loud. When it asks yes/no, just say "yes" or "no".
+   It keeps listening while a task runs, so you can say the next command straight away.
+   It does not listen while it is talking (so it never hears itself) - wait for it to finish.
+   Esc or the Stop button cancels a running task and drops anything you said meanwhile.
+   No wake word wanted? Click the "Wake word" chip to turn it off.
+
+THINGS TO TRY
+   Apps        open notepad        (switches to it if already open)
+               open a new notepad  (always opens another one)
+   YouTube     play kesariya song / play arijit singh songs on youtube
+               pause the song / resume the song / next song / scroll down
+   WhatsApp    save Rahul's number as 98765 43210      (do this once per person)
+               open whatsapp chat with Rahul
+               message Rahul saying I will be late     (asks before sending)
+   Writing     start dictation in notepad   -> everything you say is typed
+                  say "comma", "full stop", "new line" for punctuation
+                  say "stop dictation" to finish
+               write a paragraph about compilers in notepad   (AI writes it)
+               write a leave letter to the HOD in word
+   Questions   what does a compiler do / what is 25 into 4 / what time is it
+   Files       create folder cn lab / create notes.txt / write buy milk into notes.txt
+
+WHAT THE TERMINAL SHOWS
+   You said: "..."        what the microphone heard
+   Understood as: "..."   what it will do
+   Time: hearing 900 ms, compiler 4 ms, AI 2.1 s, running 300 ms
+
+GOOD TO KNOW
+   - Normal commands never use the AI and are instant. The AI (2-5 s) is used only for
+     free-form requests, questions and writing.
+   - WhatsApp without a saved number searches the name and opens the TOP match.
+     Save the number once for an exact chat every time.
+   - Speech uses Google (fast, good with Indian accents, needs internet); offline backup is Whisper.
+
+IF SOMETHING GOES WRONG
+   "can't open file app.py"     -> you are in the wrong folder. Type  dir  and cd into the
+                                   folder that contains app.py
+   "Ollama is not running"      -> open Ollama from the Start menu
+   No voice reply               -> hover the "Voice replies" chip for the reason;
+                                   py -3.12 -m pip install pywin32 pyttsx3
+   It never hears you           -> Settings > Privacy & security > Microphone > allow desktop apps
+   It feels slow on one command  -> look at the Time: line. "hearing" slow = internet;
+                                   "AI" slow = that command went to the AI (say it more directly)
+   Paste the terminal output to Claude.

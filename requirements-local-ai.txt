@@ -1,0 +1,3 @@
+faster-whisper>=1.1
+numpy>=1.26
+vosk>=0.3.45

@@ -1,0 +1,14 @@
+
+== blind set, assistant: 41/45 = 91.1% ==
+  paraphrase        19/20   95.0%
+  asr_error          8/10   80.0%
+  self_correction    3/3   100.0%
+  disfluency         2/2   100.0%
+  multistep          3/3   100.0%
+  question           3/3   100.0%
+  clarify            2/2   100.0%
+  reject             1/2    50.0%
+  FAIL [paraphrase] 'get rid of notepad' -> want 'close notepad' (got reject)
+  FAIL [asr_error] 'open crow' -> want 'open chrome' (got ir)
+  FAIL [asr_error] 'open v. s. code' -> want 'open vscode' (got reject)
+  FAIL [reject] 'shut down the computer' -> want None (got ir)

@@ -1,0 +1,21 @@
+
+== dev set, baseline compiler: 44/136 = 32.4% ==
+  canonical         14/14  100.0%
+  paraphrase        18/52   34.6%
+  asr_error          2/27    7.4%
+  self_correction    0/8     0.0%
+  disfluency         0/7     0.0%
+  multistep          5/7    71.4%
+  question           0/8     0.0%
+  clarify            0/6     0.0%
+  reject             5/7    71.4%
+
+== heldout set, baseline compiler: 11/35 = 31.4% ==
+  paraphrase         8/14   57.1%
+  asr_error          0/8     0.0%
+  self_correction    0/3     0.0%
+  disfluency         0/2     0.0%
+  multistep          2/2   100.0%
+  question           0/2     0.0%
+  clarify            0/2     0.0%
+  reject             1/2    50.0%

@@ -1,0 +1,272 @@
+[
+ {
+  "category": "paraphrase",
+  "say": "open up the notepad app",
+  "expect": "same",
+  "same_as": "open notepad"
+ },
+ {
+  "category": "paraphrase",
+  "say": "i need to open microsoft excel",
+  "expect": "same",
+  "same_as": "open excel"
+ },
+ {
+  "category": "paraphrase",
+  "say": "would you launch chrome",
+  "expect": "same",
+  "same_as": "open chrome"
+ },
+ {
+  "category": "paraphrase",
+  "say": "get rid of notepad",
+  "expect": "same",
+  "same_as": "close notepad"
+ },
+ {
+  "category": "paraphrase",
+  "say": "quit microsoft word",
+  "expect": "same",
+  "same_as": "close word"
+ },
+ {
+  "category": "paraphrase",
+  "say": "take screenshot",
+  "expect": "same",
+  "same_as": "take a screenshot"
+ },
+ {
+  "category": "paraphrase",
+  "say": "click a screenshot",
+  "expect": "same",
+  "same_as": "take a screenshot"
+ },
+ {
+  "category": "paraphrase",
+  "say": "look up cheap flights to delhi",
+  "expect": "same",
+  "same_as": "search for cheap flights to delhi"
+ },
+ {
+  "category": "paraphrase",
+  "say": "search on youtube for dsa lectures",
+  "expect": "same",
+  "same_as": "search youtube for dsa lectures"
+ },
+ {
+  "category": "paraphrase",
+  "say": "increase the sound",
+  "expect": "same",
+  "same_as": "volume up"
+ },
+ {
+  "category": "paraphrase",
+  "say": "reduce the volume",
+  "expect": "same",
+  "same_as": "volume down"
+ },
+ {
+  "category": "paraphrase",
+  "say": "press the tab key twice",
+  "expect": "same",
+  "same_as": "press tab 2 times"
+ },
+ {
+  "category": "paraphrase",
+  "say": "make a new folder named lab reports",
+  "expect": "same",
+  "same_as": "create folder lab reports"
+ },
+ {
+  "category": "paraphrase",
+  "say": "create a new text file called ideas",
+  "expect": "same",
+  "same_as": "create ideas.txt"
+ },
+ {
+  "category": "paraphrase",
+  "say": "go to google",
+  "expect": "same",
+  "same_as": "open google"
+ },
+ {
+  "category": "paraphrase",
+  "say": "open the calculator",
+  "expect": "same",
+  "same_as": "open calculator"
+ },
+ {
+  "category": "paraphrase",
+  "say": "scroll up",
+  "expect": "same",
+  "same_as": "scroll up"
+ },
+ {
+  "category": "paraphrase",
+  "say": "save it",
+  "expect": "same",
+  "same_as": "save"
+ },
+ {
+  "category": "paraphrase",
+  "say": "close the current tab",
+  "expect": "same",
+  "same_as": "close tab"
+ },
+ {
+  "category": "paraphrase",
+  "say": "minimise the window",
+  "expect": "same",
+  "same_as": "minimize window"
+ },
+ {
+  "category": "asr_error",
+  "say": "open crow",
+  "expect": "same",
+  "same_as": "open chrome"
+ },
+ {
+  "category": "asr_error",
+  "say": "open note bad",
+  "expect": "same",
+  "same_as": "open notepad"
+ },
+ {
+  "category": "asr_error",
+  "say": "open linked in",
+  "expect": "same",
+  "same_as": "open linkedin"
+ },
+ {
+  "category": "asr_error",
+  "say": "open git hub",
+  "expect": "same",
+  "same_as": "open github"
+ },
+ {
+  "category": "asr_error",
+  "say": "close the note pad",
+  "expect": "same",
+  "same_as": "close notepad"
+ },
+ {
+  "category": "asr_error",
+  "say": "tape good morning",
+  "expect": "same",
+  "same_as": "type good morning"
+ },
+ {
+  "category": "asr_error",
+  "say": "press enta",
+  "expect": "same",
+  "same_as": "press enter"
+ },
+ {
+  "category": "asr_error",
+  "say": "scroll dawn",
+  "expect": "same",
+  "same_as": "scroll down"
+ },
+ {
+  "category": "asr_error",
+  "say": "open v. s. code",
+  "expect": "same",
+  "same_as": "open vscode"
+ },
+ {
+  "category": "asr_error",
+  "say": "open chat gpt",
+  "expect": "same",
+  "same_as": "open chatgpt"
+ },
+ {
+  "category": "self_correction",
+  "say": "open spotify no wait open youtube",
+  "expect": "same",
+  "same_as": "open youtube"
+ },
+ {
+  "category": "self_correction",
+  "say": "close word sorry excel",
+  "expect": "same",
+  "same_as": "close excel"
+ },
+ {
+  "category": "self_correction",
+  "say": "type yes I mean type no",
+  "expect": "same",
+  "same_as": "type no"
+ },
+ {
+  "category": "disfluency",
+  "say": "so um open the calculator",
+  "expect": "same",
+  "same_as": "open calculator"
+ },
+ {
+  "category": "disfluency",
+  "say": "okay okay take a screenshot",
+  "expect": "same",
+  "same_as": "take a screenshot"
+ },
+ {
+  "category": "multistep",
+  "say": "open notepad and write my name is pavanji then save it as intro",
+  "expect": "same",
+  "same_as": "open notepad and type my name is pavanji and save as intro"
+ },
+ {
+  "category": "multistep",
+  "say": "open chrome then search for weather in vellore",
+  "expect": "same",
+  "same_as": "open chrome and search for weather in vellore"
+ },
+ {
+  "category": "multistep",
+  "say": "take a screenshot and then paste it in word",
+  "expect": "same",
+  "same_as": "take a screenshot and paste it into word"
+ },
+ {
+  "category": "question",
+  "say": "what is 9 into 7",
+  "expect": "same",
+  "same_as": "calculate 9 * 7"
+ },
+ {
+  "category": "question",
+  "say": "whats 100 minus 37",
+  "expect": "same",
+  "same_as": "calculate 100 - 37"
+ },
+ {
+  "category": "question",
+  "say": "what's the date",
+  "expect": "same",
+  "same_as": "what is the date"
+ },
+ {
+  "category": "clarify",
+  "say": "open the",
+  "expect": "clarify",
+  "same_as": null
+ },
+ {
+  "category": "clarify",
+  "say": "search for",
+  "expect": "clarify",
+  "same_as": null
+ },
+ {
+  "category": "reject",
+  "say": "delete all my files",
+  "expect": "reject",
+  "same_as": null
+ },
+ {
+  "category": "reject",
+  "say": "shut down the computer",
+  "expect": "reject",
+  "same_as": null
+ }
+]
